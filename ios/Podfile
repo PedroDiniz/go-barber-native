@@ -32,6 +32,8 @@ target 'goBarberNative' do
 
   pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
 
+  pod 'RNGestureHandler', :path => '../node_modules/react-native-gesture-handler'
+
   target 'goBarberNativeTests' do
     inherit! :search_paths
     # Pods for testing

@@ -36,17 +36,19 @@ export default function SignUp({ navigation }) {
     <Background>
       <Container>
         <Image source={logo} />
+
         <Form>
           <FormInput
             icon="person-outline"
             autoCorrect={false}
             autoCapitalize="none"
-            placeholder="Nome Completo"
+            placeholder="Nome completo"
             returnKeyType="next"
             onSubmitEditing={() => emailRef.current.focus()}
             value={name}
             onChangeText={setName}
           />
+
           <FormInput
             icon="mail-outline"
             keyboardType="email-address"
